@@ -1,0 +1,37 @@
+// editor
+{
+"editor.wordWrap": "on", // Enables word wrapping in the editor.
+"editor.fontSize": 18, // Sets the font size to 18.
+"editor.lineHeight": 30, // Sets the line height to 30 pixels.
+"editor.tabSize": 2, // Sets the number of spaces per tab to 2.
+"editor.bracketPairColorization.enabled": true, // Enables bracket pair colorization, which highlights matching brackets.
+"editor.guides.bracketPairs": true, // Shows vertical guides between bracket pairs.
+"editor.minimap.enabled": false, // Disables the minimap in the editor.
+"editor.formatOnSave": true, // Formats the code automatically when saving the file.
+"editor.formatOnPaste": true, // Formats the code automatically when pasting.
+"files.autoSave": "afterDelay", // Automatically saves files after a short delay of inactivity.
+
+// explorer
+"explorer.compactFolders": false, // Disables compact folders in the file explorer.
+
+// workbench
+"workbench.editor.enablePreview": false, // Disables the preview of files when clicking on them in the tabs.
+"workbench.iconTheme": "material-icon-theme", // Sets the icon theme to "material-icon-theme".
+"workbench.colorTheme": "Omni", // Sets the color theme to "Omni".
+
+// prettier
+"editor.defaultFormatter": "esbenp.prettier-vscode", // Sets Prettier as the default code formatter.
+"prettier.enable": true, // Enables Prettier formatting.
+"prettier.singleQuote": false, // Uses double quotes for strings instead of single quotes.
+"prettier.tabWidth": 2, // Sets the number of spaces per tab to 2 for Prettier.
+"prettier.semi": false, // Omits semicolons at the end of statements when formatting with Prettier.
+
+// terminal
+"terminal.integrated.fontSize": 16, // Sets the font size in the integrated terminal to 16.
+"terminal.integrated.profiles.windows": { // Defines the terminal profile for Windows.
+    "Git Bash": {
+        "source": "Git Bash" // Specifies the source for the Git Bash terminal.
+    }
+},
+"terminal.integrated.defaultProfile.windows": "Git bash" // Sets Git Bash as the default terminal for Windows.
+}
